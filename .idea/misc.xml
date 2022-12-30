@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.13370332996972756" />
+        <entry key="app/src/main/res/drawable/card_edge.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/custom_seekbar_progress.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/dialog_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/fab_bg.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/fb_icon_play.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/gradient_color.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_battery_limit.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_bg.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_element_plus.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_home_on.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_message_question.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_more.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_settings_on.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/splash_screen_element.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/test.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/topbar.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/topbar_img.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_curved_bottom_navigation_view.xml" value="0.293790546802595" />
+        <entry key="app/src/main/res/layout/activity_devices.xml" value="0.28078470804998135" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19298245614035087" />
+        <entry key="app/src/main/res/layout/activity_more.xml" value="0.293790546802595" />
+        <entry key="app/src/main/res/layout/activty_settings.xml" value="0.22857142857142856" />
+        <entry key="app/src/main/res/layout/allow_layout.xml" value="0.3185121846943138" />
+        <entry key="app/src/main/res/layout/battery_limit.xml" value="0.26036767849508335" />
+        <entry key="app/src/main/res/layout/data_limit.xml" value="0.3185121846943138" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/qr_generate.xml" value="0.37995147705078125" />
+        <entry key="app/src/main/res/layout/qr_generate_edit.xml" value="0.26036767849508335" />
+        <entry key="app/src/main/res/layout/rate_us.xml" value="0.4072265625" />
+        <entry key="app/src/main/res/layout/speed_test.xml" value="0.18200988769531246" />
+        <entry key="app/src/main/res/layout/splash_screen.xml" value="0.26036767849508335" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.25622625580413677" />
+        <entry key="app/src/main/res/layout/timer_settings.xml" value="0.29235537190082644" />
+        <entry key="app/src/main/res/menu/my_navigation_items.xml" value="0.25707049387927394" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

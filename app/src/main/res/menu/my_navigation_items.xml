@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/ic_home_on" />
+    <item android:id="@+id/hotspot_on"
+        android:title="" />
+    <item android:id="@+id/action_settings"
+        android:title=""
+        android:icon="@drawable/ic_settings_off" />
+
+</menu>

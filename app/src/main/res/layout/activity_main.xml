@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="70dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:background="@drawable/topbar"
+     />
+
+ <LinearLayout
+     android:id="@+id/top_bar"
+     android:layout_width="match_parent"
+     android:layout_height="70dp"
+     android:gravity="center">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/poppins_semibold"
+      android:text="Mobile Hotspot"
+      android:textColor="@color/white"
+      android:textSize="18sp" />
+
+ </LinearLayout>
+
+
+ <ImageView
+     android:layout_width="250dp"
+     android:layout_height="250dp"
+     android:layout_centerInParent="true"
+     android:src="@drawable/hotspot" />
+
+
+<!-- <com.airbnb.lottie.LottieAnimationView
+     android:id="@+id/animationView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     app:lottie_rawRes="@raw/hotspot"
+     app:lottie_autoPlay="true"
+     app:lottie_loop="true"/>-->
+
+<!--
+
+ <com.google.android.material.bottomnavigation.BottomNavigationView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentBottom="true"
+     android:layout_gravity="start"
+     android:layout_marginBottom="0dp"
+
+     app:menu="@menu/my_navigation_items" />
+-->
+
+ <com.google.android.material.floatingactionbutton.FloatingActionButton
+     android:id="@+id/fab"
+     android:backgroundTint="#48A5FE"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/ic_hotspot_on"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="35dp"
+     app:maxImageSize="30dp" />
+
+ <androidx.coordinatorlayout.widget.CoordinatorLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+  <com.judixdev.hotspotapp.CurveBottomBar
+      android:id="@+id/customBottomBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      app:bottomBarColor="@color/white"
+      app:curveRadius="25dp"
+      app:itemIconTint="#48A5FE"
+      app:menu="@menu/my_navigation_items" />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="4dp"
+      android:layout_above="@id/customBottomBar"
+      android:background="@drawable/shadow" />
+ </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/topbar"
+        />
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Mobile Hotspot"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_bar"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"
+            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            app:strokeColor="#48A5FE"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Timer"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_timer" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Battery Limit"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_battery_limit" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Data Limit"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_data_limit" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Speed Test"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_speed_test" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Devices"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_devices" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="QR Code"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_qr_code" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="More"
+                android:textColor="@color/settings_text_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_more" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Hotspot auto shutdown"
+                android:textColor="@color/settings_text_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Automatic shutdown after 10 minutes of no device connected"
+                android:textColor="@color/settings_text_color"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:trackTint="@color/white"
+                app:thumbTint="@color/settings_text_color"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="7dp"
+
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"            style="@style/TextAppearance.AppCompat.Headline"
+            app:strokeWidth="0.7dp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:radius="10dp"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#48A5FE">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Remove Ads"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="17dp"
+                android:src="@drawable/ic_flash" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:backgroundTint="#48A5FE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_hotspot_on"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        app:maxImageSize="30dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.judixdev.hotspotapp.CurveBottomBar
+            android:id="@+id/customBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:bottomBarColor="@color/white"
+            app:curveRadius="25dp"
+            app:itemIconTint="#48A5FE"
+            app:menu="@menu/my_navigation_items" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_above="@id/customBottomBar"
+            android:background="@drawable/shadow" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+</RelativeLayout>

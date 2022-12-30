@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:background="@drawable/dialog_bg"
+  >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bg"
+            >
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Lorem Ipsum!"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descripion"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Lorem Ipsum Lorem Ipsum"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editText_containter"
+                android:layout_below="@id/descripion"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:hint="NICKNAME"
+                android:textColorHint="@color/settings_text_color"
+                app:boxStrokeColor="@color/settings_text_color"
+                android:layout_marginBottom="10dp"
+                app:boxStrokeWidth="1dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_containter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/cencel_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Exit"
+                    android:layout_marginStart="40dp"
+                    android:textColor="#8A8C8F"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/okay_rate"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="130dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textStyle="bold"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@drawable/gradient" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorem Ipsum"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+</RelativeLayout>
